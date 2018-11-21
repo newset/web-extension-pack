@@ -1,0 +1,46 @@
+{
+  "name": "web-hybrid-vscode-extension-pack",
+  "displayName": "Hybrid Pack",
+  "description": "Popular VS Code extensions for React development.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "galleryBanner": {
+    "color": "#222222",
+    "theme": "dark"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "node",
+    "javascript",
+    "es6",
+    "hybrid",
+    "react-native",
+    "taro"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "xabikos.ReactSnippets",
+    "dbaeumer.vscode-eslint",
+    "xabikos.javascriptsnippets",
+    "jasonnutter.search-node-modules",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dsznajder.es7-react-js-snippets",
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "sysoev.language-stylus",
+    "ms-vscode.sublime-keybindings",
+    "wayou.vscode-todo-highlight",
+    "kevinkyang.auto-comment-blocks"
+  ],
+  "author": "insane",
+  "license": "ISC"
+}

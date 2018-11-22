@@ -11,6 +11,9 @@
     "color": "#222222",
     "theme": "dark"
   },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
   "keywords": [
     "react",
     "reactjs",

@@ -24,6 +24,7 @@
   "categories": [
     "Extension Packs"
   ],
+  "publisher": "luomiaotai",
   "extensionPack": [
     "xabikos.ReactSnippets",
     "dbaeumer.vscode-eslint",

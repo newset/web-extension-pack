@@ -95,5 +95,20 @@
     "update immutable": {
         "prefix": "imupdate",
         "body": "import update from 'immutability-helper';"
+    },
+    "eslint-disable": {
+        "prefix": "eslint-disable",
+        "body": ["/* eslint-disable ${1:rule} */", "$0/* eslint-enable ${1} */"],
+        "description": "ESLint disable wrapper"
+    },
+    "eslint-disable-line": {
+        "prefix": "eslint-disable-line",
+        "body": ["// eslint-disable-line ${0:rule}"],
+        "description": "ESLint disable line"
+    },
+    "eslint-disable-next-line": {
+        "prefix": "eslint-disable-next-line",
+        "body": ["// eslint-disable-next-line ${0:rule}"],
+        "description": "ESLint disable next line"
     }
 }

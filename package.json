@@ -2,7 +2,7 @@
     "name": "web-hybrid-vscode-extension-pack",
     "displayName": "Hybrid Web Extension Pack",
     "description": "Popular VS Code extensions for React development.",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -39,7 +39,23 @@
                 "language": "javascript",
                 "path": "./snippets/javascriptreact.json"
             }
-        ]
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Prettier Eslint",
+            "properties": {
+                "prettier.eslintIntegration": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable Prettier Eslint"
+                },
+                "editor.formatOnSave": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "保存时格式化代码"
+                }
+            }
+        }
     },
     "extensionPack": [
         "dbaeumer.vscode-eslint",
@@ -54,7 +70,8 @@
         "sysoev.language-stylus",
         "ms-vscode.sublime-keybindings",
         "wayou.vscode-todo-highlight",
-        "kevinkyang.auto-comment-blocks"
+        "kevinkyang.auto-comment-blocks",
+        "esbenp.prettier-vscode"
     ],
     "author": "insane",
     "license": "ISC"

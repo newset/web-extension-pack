@@ -1,78 +1,80 @@
 {
-    "name": "web-hybrid-vscode-extension-pack",
-    "displayName": "Hybrid Web Extension Pack",
-    "description": "Popular VS Code extensions for React development.",
-    "version": "1.0.4",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "galleryBanner": {
-        "color": "#222222",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.8.0"
-    },
-    "keywords": [
-        "react",
-        "reactjs",
-        "node",
-        "javascript",
-        "es6",
-        "hybrid",
-        "react-native",
-        "taro"
+  "name": "web-hybrid-vscode-extension-pack",
+  "displayName": "Hybrid Web Extension Pack",
+  "description": "Popular VS Code extensions for React development.",
+  "version": "1.0.5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "galleryBanner": {
+    "color": "#222222",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.8.0"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "node",
+    "javascript",
+    "es6",
+    "hybrid",
+    "react-native",
+    "taro"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "publisher": "luomiaotai",
+  "repository": {
+    "url": "https://github.com/newset/web-hybrid-vscode-extension-pack"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascriptreact.json"
+      }
     ],
-    "categories": [
-        "Extension Packs"
-    ],
-    "publisher": "luomiaotai",
-    "repository": {
-        "url": "https://github.com/newset/web-hybrid-vscode-extension-pack"
-    },
-    "contributes": {
-        "snippets": [{
-                "language": "javascriptreact",
-                "path": "./snippets/javascriptreact.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/javascriptreact.json"
-            }
-        ],
-        "configuration": {
-            "type": "object",
-            "title": "Prettier Eslint",
-            "properties": {
-                "prettier.eslintIntegration": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "Enable Prettier Eslint"
-                },
-                "editor.formatOnSave": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "保存时格式化代码"
-                }
-            }
+    "configuration": {
+      "type": "object",
+      "title": "Prettier Eslint",
+      "properties": {
+        "prettier.eslintIntegration": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable Prettier Eslint"
+        },
+        "editor.formatOnSave": {
+          "type": "boolean",
+          "default": true,
+          "description": "保存时格式化代码"
         }
-    },
-    "extensionPack": [
-        "dbaeumer.vscode-eslint",
-        "jasonnutter.search-node-modules",
-        "eg2.vscode-npm-script",
-        "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense",
-        "dsznajder.es7-react-js-snippets",
-        "msjsdiag.debugger-for-chrome",
-        "eamodio.gitlens",
-        "wix.vscode-import-cost",
-        "sysoev.language-stylus",
-        "ms-vscode.sublime-keybindings",
-        "wayou.vscode-todo-highlight",
-        "kevinkyang.auto-comment-blocks",
-        "esbenp.prettier-vscode"
-    ],
-    "author": "insane",
-    "license": "ISC"
+      }
+    }
+  },
+  "extensionPack": [
+    "dbaeumer.vscode-eslint",
+    "jasonnutter.search-node-modules",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dsznajder.es7-react-js-snippets",
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "sysoev.language-stylus",
+    "ms-vscode.sublime-keybindings",
+    "wayou.vscode-todo-highlight",
+    "kevinkyang.auto-comment-blocks",
+    "esbenp.prettier-vscode",
+    "thisismanta.stylus-supremacy"
+  ],
+  "author": "insane",
+  "license": "ISC"
 }

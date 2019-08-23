@@ -31,16 +31,6 @@
     "url": "https://github.com/newset/web-hybrid-vscode-extension-pack"
   },
   "contributes": {
-    "snippets": [
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/javascriptreact.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/javascriptreact.json"
-      }
-    ],
     "configuration": {
       "type": "object",
       "title": "Prettier Eslint",
@@ -58,6 +48,7 @@
       }
     }
   },
+  "icon": "moon-rover.png",
   "extensionPack": [
     "dbaeumer.vscode-eslint",
     "jasonnutter.search-node-modules",
@@ -76,7 +67,8 @@
     "thisismanta.stylus-supremacy",
     "formulahendry.auto-rename-tag",
     "shan.code-settings-sync",
-    "visualstudioexptteam.vscodeintellicode"
+    "visualstudioexptteam.vscodeintellicode",
+    "luomiaotai.web-snippets"
   ],
   "author": "insane",
   "license": "ISC"

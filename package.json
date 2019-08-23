@@ -48,7 +48,7 @@
       }
     }
   },
-  "icon": "moon-rover.png",
+  "icon": "imgs/kitty.png",
   "extensionPack": [
     "dbaeumer.vscode-eslint",
     "jasonnutter.search-node-modules",

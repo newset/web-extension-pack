@@ -1,25 +1,21 @@
-### snippets
+#### Web Must Have Extension Pack
 
-- cln
-
-```
-    className=""
-```
-
-- dva
-
-```
-    export default {
-        namespace: '${1:namespace}',
-        state: {},
-        reducers: {
-            save(state, { payload }) {
-            }
-        },
-        effects: {
-            * ${2:effect} ({ payload }, { put, call }) {
-
-            }
-        }
-    };
-```
+- "dbaeumer.vscode-eslint",
+- "jasonnutter.search-node-modules",
+- "eg2.vscode-npm-script",
+- "christian-kohler.npm-intellisense",
+- "christian-kohler.path-intellisense",
+- "dsznajder.es7-react-js-snippets",
+- "msjsdiag.debugger-for-chrome",
+- "eamodio.gitlens",
+- "wix.vscode-import-cost",
+- "sysoev.language-stylus",
+- "ms-vscode.sublime-keybindings",
+- "wayou.vscode-todo-highlight",
+- "kevinkyang.auto-comment-blocks",
+- "esbenp.prettier-vscode",
+- "thisismanta.stylus-supremacy",
+- "formulahendry.auto-rename-tag",
+- "shan.code-settings-sync",
+- "visualstudioexptteam.vscodeintellicode",
+- "luomiaotai.web-snippets"

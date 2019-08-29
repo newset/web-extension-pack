@@ -2,7 +2,7 @@
   "name": "web-hybrid-vscode-extension-pack",
   "displayName": "Hybrid Web Extension Pack",
   "description": "Popular VS Code extensions for React development.",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "scripts": {
     "release:patch": "standard-version --release-as patch && vsce publish",
     "release:minor": "standard-version --release-as minor && vsce publish",

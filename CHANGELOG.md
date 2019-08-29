@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/newset/web-hybrid-vscode-extension-pack/compare/v1.0.9...v1.0.10) (2019-08-29)
+
+
+### Features
+
+* add chinese language pack ([50f051d](https://github.com/newset/web-hybrid-vscode-extension-pack/commit/50f051d))
+
+
+
 ### [1.0.9](https://github.com/newset/web-hybrid-vscode-extension-pack/compare/v1.0.8...v1.0.9) (2019-08-29)
 
 

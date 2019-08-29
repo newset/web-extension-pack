@@ -61,14 +61,15 @@
     "wix.vscode-import-cost",
     "sysoev.language-stylus",
     "ms-vscode.sublime-keybindings",
-    "wayou.vscode-todo-highlight",
     "kevinkyang.auto-comment-blocks",
+    "gruntfuggly.todo-tree",
     "esbenp.prettier-vscode",
     "thisismanta.stylus-supremacy",
     "formulahendry.auto-rename-tag",
     "shan.code-settings-sync",
     "visualstudioexptteam.vscodeintellicode",
-    "luomiaotai.web-snippets"
+    "luomiaotai.web-snippets",
+    "editorconfig.editorconfig"
   ],
   "author": "insane",
   "license": "ISC"

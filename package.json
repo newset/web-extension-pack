@@ -4,6 +4,8 @@
   "description": "Popular VS Code extensions for React development.",
   "version": "1.0.9",
   "scripts": {
+    "release:patch": "standard-version --release-as patch && vsce publish",
+    "release:minor": "standard-version --release-as minor && vsce publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "galleryBanner": {
@@ -69,7 +71,8 @@
     "shan.code-settings-sync",
     "visualstudioexptteam.vscodeintellicode",
     "luomiaotai.web-snippets",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "ms-ceintl.vscode-language-pack-zh-hans"
   ],
   "author": "insane",
   "license": "ISC"
